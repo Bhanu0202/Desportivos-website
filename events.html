@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/events.css" />
+    <link rel="stylesheet" href="css/modal.css">
   </head>
 
   <body>
@@ -35,55 +36,28 @@
         <li class="item">Squash</li>
         <li class="item">Boxing</li>
         <li class="item">Martial Arts</li>
+        <li class="item">Lifting</li>
       </ul>
     </div>
-    <script>
-      let timeout, imgto;
-      const ul = document.getElementById("items");
-      const li = document.getElementsByTagName("li");
-      const cap = document.getElementById("event-img");
-      const ar_li = [...li];
-      ul.addEventListener("mouseover", e => {
-        const el = e.target;
-        cap.style.opacity = 0;
-        if (el.tagName === "LI") {
-          console.log(el);
-          clearTimeout(imgto);
-
-          imgto = setTimeout(() => {
-            cap.setAttribute("src", `assets/events/${el.innerHTML}.jpg`);
-            cap.style.opacity = 1;
-          }, 500);
-        } else {
-          clearTimeout(imgto);
-          imgto = setTimeout(() => {
-            cap.setAttribute("src", `assets/events/event-1.jpg`);
-            cap.style.opacity = 1;
-          }, 500);
-        }
-      });
-      let prevpos = 0;
-      document.addEventListener("mousemove", e => {
-        const pos = ul.getBoundingClientRect().y;
-        let direction;
-        if (prevpos > pos) direction = "up";
-        else direction = "down";
-        prevpos = pos;
-        ul.style.transform =
-          "translateY(" + -(e.clientY - screen.height / 2) + "px)";
-
-        ar_li.forEach(l => {
-          if (direction === "up")
-            l.style.transform = "rotate3d(1, 1, 1, -3deg)";
-          if (direction === "down") l.style.transform = "rotate3d(1,1,1,3deg)";
-        });
-        clearTimeout(timeout);
-        timeout = setTimeout(() => {
-          ar_li.forEach(l => {
-            l.style.transform = "scaleY(1) rotate3d(0, 0, 0, 0)";
-          });
-        }, 80);
-      });
-    </script>
+    <section id="modal-1" class="modal-container">
+      <div class="modal-dialog">
+        <svg class="modal-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon class="modal-polygon"></polygon>
+        </svg>
+        <div class="modal-content">
+          <div class="modal-header">
+            Heading
+          </div>
+          <div class="modal-body">
+            <h2>I'm a modal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi ut inventore consectetur quos rerum
+              quibusdam accusamus, labore itaque assumenda consequatur cum saepe velit quidem ipsa facilis. Repellendus,
+              reiciendis quam?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script type="module" src="scripts/events.js"></script>
   </body>
 </html>
