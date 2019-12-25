@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave+Display|Trade+Winds&display=swap");
+
+$pink: #e24594;
+$bg: #282828;
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $bg;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 3% 5% 0 3%;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes danger-zone {
+  0% {
+    background-color: transparent;
+  }
+  5% {
+    background-color: $pink;
+  }
+  20% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: $pink;
+  }
+  33% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: $pink;
+  }
+  60% {
+    background-color: transparent;
+  }
+  65% {
+    background-color: $pink;
+  }
+  75% {
+    background-color: transparent;
+  }
+  85% {
+    background-color: $pink;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.page-heading {
+  font-family: "Sedgwick Ave Display", sans-serif;
+  font-size: 4.5rem;
+  color: $pink;
+  display: inline-block;
+  animation: danger-zone 1.5s linear infinite;
+  @supports (-webkit-text-stroke: 1px $pink) {
+    -webkit-text-stroke: 0.1px $pink;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-background-clip: text;
+    transition: background-color 200ms ease;
+    &:hover {
+      background-color: $pink;
+      -webkit-text-stroke: 0.1px white;
+    }
+    &::after {
+      display: block;
+      content: "Contact us";
+      position: absolute;
+      top: 10%;
+      left: 35%;
+      font-size: 10rem;
+      -webkit-text-stroke: 0px white;
+      -webkit-text-fill-color: rgba($color: $pink, $alpha: 0.05);
+    }
+  }
+}

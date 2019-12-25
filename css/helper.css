@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave+Display|Trade+Winds&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #282828;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 3% 5% 0 3%;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@-webkit-keyframes danger-zone {
+  0% {
+    background-color: transparent;
+  }
+  5% {
+    background-color: #e24594;
+  }
+  20% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: #e24594;
+  }
+  33% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: #e24594;
+  }
+  60% {
+    background-color: transparent;
+  }
+  65% {
+    background-color: #e24594;
+  }
+  75% {
+    background-color: transparent;
+  }
+  85% {
+    background-color: #e24594;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes danger-zone {
+  0% {
+    background-color: transparent;
+  }
+  5% {
+    background-color: #e24594;
+  }
+  20% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: #e24594;
+  }
+  33% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: #e24594;
+  }
+  60% {
+    background-color: transparent;
+  }
+  65% {
+    background-color: #e24594;
+  }
+  75% {
+    background-color: transparent;
+  }
+  85% {
+    background-color: #e24594;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.page-heading {
+  font-family: "Sedgwick Ave Display", sans-serif;
+  font-size: 4.5rem;
+  color: #e24594;
+  display: inline-block;
+  -webkit-animation: danger-zone 1.5s linear infinite;
+          animation: danger-zone 1.5s linear infinite;
+}
+
+@supports (-webkit-text-stroke: 1px #e24594) {
+  .page-heading {
+    -webkit-text-stroke: 0.1px #e24594;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+  }
+  .page-heading:hover {
+    background-color: #e24594;
+    -webkit-text-stroke: 0.1px white;
+  }
+  .page-heading::after {
+    display: block;
+    content: "Contact us";
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size: 10rem;
+    -webkit-text-stroke: 0px white;
+    -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
+  }
+}
+/*# sourceMappingURL=helper.css.map */
