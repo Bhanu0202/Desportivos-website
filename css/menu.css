@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300");
 @import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
-body{
+body {
   margin-top: 0;
   padding-top: 0;
 }
@@ -12,8 +12,8 @@ body{
   left: calc(50% - 10rem);
   width: 10rem;
   height: 10rem;
-  background: rgba(215, 25, 24, .7);
-  opacity: .5;
+  background: rgba(215, 25, 24, 0.7);
+  opacity: 0.5;
   border-radius: 50%;
 }
 
@@ -24,12 +24,12 @@ body{
   left: calc(50% - 10rem);
   width: 5rem;
   height: 5rem;
-  background: rgba(215, 25, 24, .5);
+  background: rgba(215, 25, 24, 0.5);
   border-radius: 50%;
 }
 
 /*marquee........................................*/
-.demo{
+.demo {
   user-select: none;
   position: absolute;
   font-size: 150px;
@@ -39,18 +39,18 @@ body{
   font-family: "Ceviche One", sans-serif;
   z-index: 10;
 }
-p span{
+p span {
   font-size: 40px;
   color: orange;
   margin-left: 100px;
   vertical-align: super;
 }
-p a{
-  color: #8b008b;
+p a {
+  color: rgb(108, 208, 255);
   text-decoration: none;
 }
 
-#menu{
+#menu {
   position: fixed;
   z-index: 20;
   height: 100vh;
@@ -68,7 +68,7 @@ p a{
   color: #e24594;
   display: inline-block;
   -webkit-animation: danger-zone 1.5s linear infinite;
-          animation: danger-zone 1.5s linear infinite;
+  animation: danger-zone 1.5s linear infinite;
 }
 
 @supports (-webkit-text-stroke: 1px #e24594) {
@@ -114,13 +114,12 @@ p a{
   width: 56px;
   top: 10%;
   right: 120px;
-  //transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 62px;
-  font-family:'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #fff;
   cursor: pointer;
   z-index: 25;
-  
 }
 .menu::before,
 .menu::after {
@@ -128,7 +127,6 @@ p a{
   transition: 0.4s ease;
   opacity: 0;
   pointer-events: none;
-  
 }
 .menu:before {
   content: "M\00a0 \00a0 \00a0 \00a0 \00a0U";
@@ -140,7 +138,6 @@ p a{
   content: "N";
   top: 50px;
   left: 96%;
-  
 }
 .menu:hover::before,
 .menu:hover::after {
@@ -157,7 +154,6 @@ p a{
   transition: transform 0.4s ease;
 }
 
-
 .check-out {
   width: 100vw;
   z-index: 10;
@@ -172,11 +168,11 @@ p a{
   margin: 0;
   padding: 0;
 }
-.check-out li{
+.check-out li {
   display: inline;
   padding: 2rem;
 }
-.check-out a{
+.check-out a {
   color: white;
 }
 
@@ -289,5 +285,3 @@ p a{
   -ms-transform: translateX(-20%) translateY(-100%) rotate(45deg);
   transform: translateX(-20%) translateY(-100%) rotate(45deg);
 }
-
-

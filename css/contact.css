@@ -100,7 +100,7 @@ circle {
   top: 10px;
   right: 100px;
   width: 15%;
-  z-index: 1000;
+  z-index: 0;
   height: 25%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -155,6 +155,7 @@ circle {
   height: 40%;
   margin: 5px 5px 100px 5px;
   cursor: pointer;
+  z-index: 500;
   border-radius: 2px;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02), inset 0 0px 0px 1px rgba(0, 0, 0, 0.07);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02), inset 0 0px 0px 1px rgba(0, 0, 0, 0.07);
@@ -165,20 +166,6 @@ circle {
   transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 3px solid #e24594;
-}
-
-.item::after {
-  position: absolute;
-  content: "";
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(226, 69, 148, 0.5)), to(rgba(226, 69, 148, 0)));
-  background: linear-gradient(to top, rgba(226, 69, 148, 0.5), rgba(226, 69, 148, 0));
-  width: 100%;
-  height: 20%;
-  left: 0;
-  bottom: 0;
-  opacity: 0;
-  -webkit-transition: opacity 500ms ease-in-out;
-  transition: opacity 500ms ease-in-out;
 }
 
 .item #gmanthan {
