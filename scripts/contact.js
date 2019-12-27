@@ -11,8 +11,5 @@ console.log(items);
     clip = document.querySelector("#clip-" + i + " circle");
     clip.setAttribute("cx", c.x);
     clip.setAttribute("cy", c.y);
-    console.log("ClipX = ", clip.getAttribute("cx"), " X = ", el.clientX);
-    console.log("Y = ", el.clientY);
-    console.log(i);
   });
 });

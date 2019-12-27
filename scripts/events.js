@@ -457,7 +457,8 @@ function createModal(container) {
     )
     .to(content, 1, {
       autoAlpha: 1
-    });
+    })
+    .to(dialog, 0.2, { backgroundColor: "#e24594" });
 
   var modal = {
     animation: animation,
@@ -537,27 +538,29 @@ ul.addEventListener("mouseover", e => {
     }, 500);
   }
 });
-let prevpos = 0;
-document.addEventListener("mousemove", e => {
-  const pos = ul.getBoundingClientRect().y;
-  let direction;
-  if (prevpos > pos) direction = "up";
-  else direction = "down";
-  prevpos = pos;
-  ul.style.transform =
-    "translateY(" + -(e.clientY - screen.height / 2 + 350) + "px)";
+if (screen.width >= 601) {
+  let prevpos = 0;
+  document.addEventListener("mousemove", e => {
+    const pos = ul.getBoundingClientRect().y;
+    let direction;
+    if (prevpos > pos) direction = "up";
+    else direction = "down";
+    prevpos = pos;
+    ul.style.transform =
+      "translateY(" + -(e.clientY - screen.height / 2 + 350) + "px)";
 
-  ar_li.forEach(l => {
-    if (direction === "up") l.style.transform = "rotate3d(1, 1, 1, -3deg)";
-    if (direction === "down") l.style.transform = "rotate3d(1,1,1,3deg)";
-  });
-  clearTimeout(timeout);
-  timeout = setTimeout(() => {
     ar_li.forEach(l => {
-      l.style.transform = "scaleY(1) rotate3d(0, 0, 0, 0)";
+      if (direction === "up") l.style.transform = "rotate3d(1, 1, 1, -3deg)";
+      if (direction === "down") l.style.transform = "rotate3d(1,1,1,3deg)";
     });
-  }, 80);
-});
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      ar_li.forEach(l => {
+        l.style.transform = "scaleY(1) rotate3d(0, 0, 0, 0)";
+      });
+    }, 80);
+  });
+}
 
 ul.addEventListener("click", e => {
   if (e.target.tagName === "LI") {

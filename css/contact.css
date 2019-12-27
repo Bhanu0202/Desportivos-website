@@ -311,4 +311,10 @@ circle {
   transition: opacity 500ms ease-in-out;
   opacity: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .team-heading {
+    margin-top: 0;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
