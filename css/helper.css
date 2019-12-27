@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 3% 5% 0 0;
+  margin: 0 3% 0 3%;
 }
 
 .flex-row {
@@ -141,12 +141,12 @@ main {
   }
   .page-heading::after {
     display: block;
-    content: "Contact us";
+    content: attr(id);
     position: absolute;
     top: 10%;
     left: 0%;
-    text-align: center;
     font-size: 1rem;
+    text-align: center;
     width: 100%;
     -webkit-text-stroke: 0px white;
     -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
@@ -154,12 +154,12 @@ main {
   @media screen and (min-width: 800px) {
     .page-heading::after {
       display: block;
-      content: "Contact us";
+      content: attr(id);
       position: absolute;
       top: 10%;
       left: 0%;
-      text-align: center;
       font-size: 10rem;
+      text-align: center;
       width: 100%;
       -webkit-text-stroke: 0px white;
       -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
