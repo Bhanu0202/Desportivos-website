@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 3% 5% 0 3%;
+  margin: 3% 5% 0 0;
 }
 
 .flex-row {
@@ -120,8 +120,11 @@ main {
   font-size: 4.5rem;
   color: #e24594;
   display: inline-block;
+  text-align: center;
+  width: 100%;
   -webkit-animation: danger-zone 1.5s linear infinite;
           animation: danger-zone 1.5s linear infinite;
+  position: relative;
 }
 
 @supports (-webkit-text-stroke: 1px #e24594) {
@@ -141,8 +144,10 @@ main {
     content: "Contact us";
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 0%;
+    text-align: center;
     font-size: 10rem;
+    width: 100%;
     -webkit-text-stroke: 0px white;
     -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
   }

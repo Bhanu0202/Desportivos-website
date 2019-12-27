@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
+.page-heading::after {
+  content: "Events";
+  -webkit-transform-origin: 50% 20%;
+          transform-origin: 50% 20%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -33,13 +39,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 
 .wrapper {
   z-index: 1000;
-  font-family: "Ceviche One", sans-serif;
+  font-family: "Sedgwick Ave Display", sans-serif;
   font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +75,6 @@ ul {
 
 .item {
   text-align: center;
-  text-transform: uppercase;
   margin: 20px;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -78,8 +83,17 @@ ul {
   border-radius: 0px;
 }
 
+li {
+  width: 100%;
+  -webkit-text-stroke: 1px #6cd0ff;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 li:hover {
   cursor: pointer;
+  background-color: #e24594;
 }
 
 #backdrop {
