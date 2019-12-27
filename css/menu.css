@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
+body{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.magicm {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background: rgba(215, 25, 24, .7);
+  opacity: .5;
+  border-radius: 50%;
+}
+
+.magics {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 5rem;
+  height: 5rem;
+  background: rgba(215, 25, 24, .5);
+  border-radius: 50%;
+}
+
+/*marquee........................................*/
+.demo{
+  user-select: none;
+  position: absolute;
+  font-size: 150px;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 5;
+  font-family: "Ceviche One", sans-serif;
+  z-index: 10;
+}
+p span{
+  font-size: 40px;
+  color: orange;
+  margin-left: 100px;
+  vertical-align: super;
+}
+p a{
+  color: #8b008b;
+  text-decoration: none;
+}
+
+#menu{
+  position: fixed;
+  z-index: 20;
+  height: 100vh;
+  width: 100vw;
+}
+
+.menu-heading {
+  position: absolute;
+  top: -60px;
+  left: 60px;
+  margin-bottom: 0;
+  z-index: 10;
+  font-family: "Sedgwick Ave Display", sans-serif;
+  font-size: 4.5rem;
+  color: #e24594;
+  display: inline-block;
+  -webkit-animation: danger-zone 1.5s linear infinite;
+          animation: danger-zone 1.5s linear infinite;
+}
+
+@supports (-webkit-text-stroke: 1px #e24594) {
+  .menu-heading {
+    -webkit-text-stroke: 0.1px #e24594;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+  }
+  .menu-heading:hover {
+    background-color: #e24594;
+    -webkit-text-stroke: 0.1px white;
+  }
+  .menu-heading::after {
+    display: block;
+    content: attr(id);
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    -webkit-text-stroke: 0px white;
+    -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
+  }
+  @media screen and (min-width: 800px) {
+    .menu-heading::after {
+      display: block;
+      content: attr(id);
+      position: absolute;
+      top: 10%;
+      left: 0%;
+      width: 100%;
+      -webkit-text-stroke: 0px white;
+      -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
+    }
+  }
+}
+
+/*hamburger menu........................................................*/
+.menu {
+  display: inline-block;
+  position: fixed;
+  width: 56px;
+  top: 10%;
+  right: 120px;
+  //transform: translate(-50%, -50%);
+  font-size: 62px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  z-index: 25;
+  
+}
+.menu::before,
+.menu::after {
+  position: absolute;
+  transition: 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+  
+}
+.menu:before {
+  content: "M\00a0 \00a0 \00a0 \00a0 \00a0U";
+  top: -60px;
+  left: -100%;
+  width: 215px;
+}
+.menu:after {
+  content: "N";
+  top: 50px;
+  left: 96%;
+  
+}
+.menu:hover::before,
+.menu:hover::after {
+  top: -4.3px;
+  opacity: 1;
+  transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+}
+
+.bar {
+  width: 85%;
+  height: 3px;
+  background: white;
+  margin: 0 auto 15px;
+  transition: transform 0.4s ease;
+}
+
+
+.check-out {
+  width: 100vw;
+  z-index: 10;
+  position: fixed;
+  bottom: 10%;
+  left: 0%;
+  font-size: 2rem;
+}
+
+.check-out ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.check-out li{
+  display: inline;
+  padding: 2rem;
+}
+.check-out a{
+  color: white;
+}
+
+.curtain-menu {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+}
+
+.curtain-menu-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  transition-delay: 0.5s;
+  visibility: hidden;
+}
+
+.curtain-menu .curtain {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: -webkit-flex 0.45s;
+  transition: flex 0.45s;
+  transition: flex 0.45s, -webkit-flex 0.45s, -ms-flex 0.45s;
+}
+
+.curtain-menu .curtain:nth-child(2) {
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  background: transparent;
+}
+
+.curtain-menu .curtain:nth-child(odd) {
+  background: #282828;
+}
+
+.curtain-menu-button-toggle div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 3px;
+  background: #1779ba;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition-delay: 0.5s;
+}
+
+.curtain-menu-open .curtain:nth-child(2) {
+  -webkit-flex: 0 0 0%;
+  -ms-flex: 0 0 0%;
+  flex: 0 0 0%;
+}
+
+.curtain-menu-open .curtain-menu-wrapper {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  visibility: visible;
+  pointer-events: all;
+}
+
+.curtain-menu-open .menu .bar1 {
+  -webkit-transform: translateX(-20%) translateY(-50%) rotate(-45deg);
+  -ms-transform: translateX(-20%) translateY(-50%) rotate(-45deg);
+  transform: translateX(-20%) translateY(-50%) rotate(-45deg);
+}
+
+.curtain-menu-open .menu .bar2 {
+  -webkit-transform: translateX(-20%) translateY(-100%) rotate(45deg);
+  -ms-transform: translateX(-20%) translateY(-100%) rotate(45deg);
+  transform: translateX(-20%) translateY(-100%) rotate(45deg);
+}
+
+
