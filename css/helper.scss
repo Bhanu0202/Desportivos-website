@@ -93,10 +93,24 @@ main {
       top: 10%;
       left: 0%;
       text-align: center;
-      font-size: 10rem;
+      font-size: 1rem;
       width: 100%;
       -webkit-text-stroke: 0px white;
       -webkit-text-fill-color: rgba($color: $pink, $alpha: 0.05);
+    }
+    @media screen and (min-width: 800px) {
+      &::after {
+        display: block;
+        content: "Contact us";
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+        font-size: 10rem;
+        width: 100%;
+        -webkit-text-stroke: 0px white;
+        -webkit-text-fill-color: rgba($color: $pink, $alpha: 0.05);
+      }
     }
   }
 }
