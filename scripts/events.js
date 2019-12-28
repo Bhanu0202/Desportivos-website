@@ -107,7 +107,7 @@ var eventsContent = {
                                                     <div class="col-12 col-sm-6 col-md-6">Utkarsh Kumar<br><a href="tel:+91-7023514107"
                                                             title="Click to Call">+91-7023514107</a></div>
                                                 </div>
-                                            </div>`
+                                            `
   },
   Cricket: {
     svg: "path-to-svg",
@@ -125,16 +125,10 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Bhanu Agarwal<br><a href="tel:+91-8290338419"
-                                                            title="Click to Call">8290338419</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Shubham Bansal<br><a href="tel:+91-9680855263"
-                                                            title="Click to Call">9680855263</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Tanuj Soni<br><a href="tel:+91-9179850362"
-                                                            title="Click to Call">9179850362</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Yogesh Singh Dhakad<br><a
-                                                            href="tel:+91-9950773875" title="Click to Call">9950773875</a></div>
-                                                </div>
-                                            </div>`
+                                                     <div class="col-12 col-sm-6 col-md-4">Pranav Wadhwa<br><a href="tel:+91-9783400235" title="Click to Call">9783400235</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Vardhman Jain<br><a href="tel:+91-9315155944" title="Click to Call">9315155944</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Sajal Garg<br><a href="tel:+91-9818984717" title="Click to Call">9818984717</a></div>
+                                                </div>`
   },
   Tennis: {
     svg: "path-to-svg",
@@ -155,10 +149,8 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-6">Devesh Sachdev<br><a href="tel:+91-8529832091"
-                                                            title="Click to Call">+91-8529832091</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-6">Aditi Taank<br><a href="tel:+91-9461175825"
-                                                            title="Click to Call">+91-9461175825</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-6">Shreyans Jain<br><a href="tel:+91-9610080215" title="Click to Call">+91-9610080215</a></div>
+                                                    <!-- <div class="col-12 col-sm-6 col-md-6">Shrey Pratap Jagawat<br><a href="tel:+91-9928859868" title="Click to Call">+91-9928859868</a></div> -->
                                                 </div>`
   },
   Volleyball: {
@@ -176,14 +168,10 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Naman Mathur<br><a href="tel:+91-7597403445"
-                                                            title="Click to Call">7597403445</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Saransh Bankiwal<br><a href="tel:+91-7023523969"
-                                                            title="Click to Call">7023523969</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Hitesha Sharma<br><a href="tel:+91-9079265263"
-                                                            title="Click to Call">9079265263</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Khyati Goyal<br><a href="tel:+91-9462904912"
-                                                            title="Click to Call">9462904912</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Dhruv Yadav<br><a href="tel:+91-9999640075" title="Click to Call">9999640075</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Nandirudra Singh Mokalsar<br><a href="tel:+91-9414980787" title="Click to Call">9414980787</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Shubhangi Sharma<br><a href="tel:+91-6377914790" title="Click to Call">6377914790</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Poonam Baheti<br><a href="tel:+91-9521063425" title="Click to Call">9521063425</a></div>
                                                 </div>`
   },
   Football: {
@@ -200,14 +188,8 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-md-3 col-sm-6">Abhinav Tiwari<br><a href="tel:+91-7726949543"
-                                                            title="Click to Call">7726949543</a></div>
-                                                    <div class="col-12 col-md-3 col-sm-6">Ritik Mishra<br><a href="tel:+91-7999796034"
-                                                            title="Click to Call">7999796034</a></div>
-                                                    <div class="col-12 col-md-3 col-sm-6">Ashutosh Sundriyal<br><a href="tel:+91-7895913443"
-                                                            title="Click to Call">7895913443</a></div>
-                                                    <div class="col-12 col-md-3 col-sm-6">Udit Bansal<br><a href="tel:+91-9636215348"
-                                                            title="Click to Call">9636215348</a></div>
+                                                    <div class="col-12 col-sm-6">Dhananjay Singh Hada<br><a href="tel:+91-8503817750" title="Click to Call">8503817750</a></div>
+                                                    <div class="col-12 col-sm-6">Shakul<br><a href="tel:+91-8601366233" title="Click to Call">8601366233</a></div>
                                                 </div>`
   },
   "Table Tennis": {
@@ -242,14 +224,11 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Abhinav Dhaker<br><a href="tel:+91-9460848857"
-                                                            title="Click to Call">+91-9460848857</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Avi Mukhija<br><a href="tel:+91-7976282584"
-                                                            title="Click to Call">+91-7976282584</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Yash Agrawal<br><a href="tel:+91-7869068581"
-                                                            title="Click to Call">+91-7869068581</a></div>
+                                                     <div class="col-12 col-sm-6 col-md-4">Sumit Rajpurohit<br><a href="tel:+91-9660483793" title="Click to Call">+91-9660483793</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Dev Patel<br><a href="tel:+91-9409251952" title="Click to Call">+91-9409251952</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Meghal Jain<br><a href="tel:+91-6378022991" title="Click to Call">+91-6378022991</a></div>
                                                 </div>
-                                            </div>`
+                                            `
   },
   Kabaddi: {
     svg: "path-to-svg",
@@ -281,12 +260,9 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Harsh Mehta<br><a href="tel:+91-9407165195"
-                                                            title="Click to Call">+91-9407165195</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Lokesh Kaushik<br><a href="tel:+91-7060680785"
-                                                            title="Click to Call">+91-7060680785</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Komal Kungwani<br><a href="tel:+91-8890334491"
-                                                            title="Click to Call">+91-8890334491</a></div>
+                                                     <div class="col-12 col-sm-6 col-md-4">Rishabh Sharma<br><a href="tel:+91-7742313435" title="Click to Call">+91-7742313435</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Aditya Goyal<br><a href="tel:+91-9783921726" title="Click to Call">+91-9783921726</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Monika Singhal<br><a href="tel:+91-8619785081" title="Click to Call">+91-8619785081</a></div>
                                                 </div>`
   },
   Badminton: {
@@ -307,12 +283,9 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Rishit Sahu<br><a href="tel:+91-9588036568"
-                                                            title="Click to Call">9588036568</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Aabha Sharma<br><a href="tel:+91-9079366629"
-                                                            title="Click to Call">9079366629</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-4">Hiya Patel<br><a href="tel:+91-9680851370"
-                                                            title="Click to Call">9680851370</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Anirudh Singh<br><a href="tel:+91-7023291861" title="Click to Call">7023291861</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Brajesh Agarwal<br><a href="tel:+91-8432631000" title="Click to Call">8432631000</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Bharat Paliwal<br><a href="tel:+91-6377541668" title="Click to Call">6377541668</a></div>
                                                 </div>`
   },
   Squash: {
@@ -329,8 +302,8 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12">Tanmay Deep Sharma<br><a href="tel:+91-9799968212"
-                                                            title="Click to Call">+91-9799968212</a></div>
+                                                    <div class="col-12 col-md-6">Nitin Khandelwal<br><a href="tel:+91-7791056121" title="Click to Call">+91-7791056121</a></div>
+                                                    <div class="col-12 col-md-6">Vipul Khandelwal<br><a href="tel:+91-8696941353" title="Click to Call">+91-8696941353</a></div>
                                                 </div>`
   },
   Lifting: {
@@ -365,10 +338,8 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-6">Abhinav Shukla<br><a href="tel:+91-9680848822"
-                                                            title="Click to Call">+91-9680848822</a></div>
-                                                    <div class="col-12 col-sm-6 col-md-6">Abhishek Yadav<br><a href="tel:+91-7678123016"
-                                                            title="Click to Call">+91-7678123016</a></div>
+                                                     <div class="col-12 col-sm-6 col-md-6">Geet Choudhary<br><a href="tel:+91-9829271717" title="Click to Call">+91-9829271717</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-6">Anant Sharma<br><a href="tel:+91-8529841966" title="Click to Call">+91-8529841966</a></div>
                                                 </div>`
   }
 };
@@ -486,6 +457,14 @@ function createModal(container) {
     const modalBody = container.querySelector(".modal-body");
     modalHeader.innerHTML = eventsContent[targetName].header;
     modalBody.innerHTML = eventsContent[targetName].body;
+    if (dialog.offsetHeight >= screen.height) {
+      dialog.style.height = "100%";
+      dialog.style.overflowY = "auto";
+    } else {
+      dialog.style.height = "auto";
+      dialog.style.overflowY = "hidden";
+    }
+
     container.addEventListener("click", onClick);
   }
 
@@ -547,11 +526,11 @@ if (screen.width >= 601) {
     else direction = "down";
     prevpos = pos;
     ul.style.transform =
-      "translateY(" + -(e.clientY - screen.height / 2 + 350) + "px)";
+      "translateY(" + -(e.clientY * 1.5 - screen.height / 2 + 350) + "px)";
 
     ar_li.forEach(l => {
-      if (direction === "up") l.style.transform = "rotate3d(1, 1, 1, -3deg)";
-      if (direction === "down") l.style.transform = "rotate3d(1,1,1,3deg)";
+      if (direction === "up") l.style.transform = "rotate3d(1, 1, 1, -10deg)";
+      if (direction === "down") l.style.transform = "rotate3d(1,1,1,10deg)";
     });
     clearTimeout(timeout);
     timeout = setTimeout(() => {
