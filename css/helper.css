@@ -166,4 +166,10 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .page-heading {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=helper.css.map */

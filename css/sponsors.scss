@@ -1,27 +1,29 @@
-@import url("https://fonts.googleapis.com/css?family=Knewave&display=swap");
 $pink: #e24594;
 $lb: rgb(108, 208, 255);
 
-.team-heading {
-  font-family: "Sedgwick Ave Display";
-  font-size: 3rem;
-  @supports (-webkit-text-stroke: 1px $pink) {
-    -webkit-text-stroke: 0.1px $lb;
-    -webkit-text-fill-color: transparent;
-  }
-  margin: 60px 10px;
+.page-heading::after {
+  content: "Sponsors";
 }
 
-.team-wrapper {
-  margin-top: 10px;
-  color: $pink;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.contact-wrapper {
+.sponsor-wrapper {
   width: 100%;
 }
+
+.sponsor-row {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.row-heading {
+  font-size: 3rem;
+  font-family: "Sedgwick Ave Display";
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px $lb;
+}
+
 .img-wrapper {
   display: flex;
   flex-flow: column;
@@ -34,10 +36,7 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-.team {
-  justify-content: space-around;
-  align-items: center;
-}
+
 svg {
   position: absolute;
   top: 0;
@@ -58,45 +57,9 @@ circle {
   transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .item-wrapper {
-  width: 55%;
-  height: 100%;
-  .social {
-    position: absolute;
-    top: 10px;
-    right: 100px;
-    width: 15%;
-    z-index: 0;
-    height: 25%;
-    justify-content: space-around;
-    align-items: center;
-    justify-content: space-around;
-    opacity: 0;
-    transition: all 200ms ease-in-out;
-    a {
-      text-align: center;
-    }
-    img {
-      transform: translateX(40px);
-      width: 40%;
-      border: 5px solid transparent;
-      border-radius: 50%;
-      padding: 5px;
-      transition: all 200ms ease-in-out;
-      background-color: #3d3d3d;
-    }
-  }
-  &:hover {
-    .social {
-      transform: translateX(50px);
-      opacity: 1;
-      a:hover {
-        img {
-          border: 5px solid $pink;
-        }
-      }
-    }
-  }
+  width: 80%;
 }
+
 .item {
   display: flex;
   align-items: center;
@@ -104,48 +67,52 @@ circle {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 40%;
   margin: 5px 5px 100px 5px;
   cursor: pointer;
   z-index: 500;
   border-radius: 2px;
+  background-color: #e24594;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02),
     inset 0 0px 0px 1px rgba(0, 0, 0, 0.07);
   transform: scale(1);
   transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 3px solid $pink;
-  #gmanthan {
+  border: 3px solid $lb;
+  border-radius: 10px;
+  #sp0 {
     clip-path: url("#clip-0");
   }
-  #gaastha {
+  #sp1 {
     clip-path: url("#clip-1");
   }
-  #grithvick {
+  #sp2 {
     clip-path: url("#clip-2");
   }
-  #gritik {
+  #sp3 {
     clip-path: url("#clip-3");
   }
-  #gbhanu {
+  #sp4 {
     clip-path: url("#clip-4");
   }
-  #gaarshi {
+  #sp5 {
     clip-path: url("#clip-5");
   }
-  #gjunaid {
+  #sp6 {
     clip-path: url("#clip-6");
   }
-  #gvishesh {
+  #sp7 {
     clip-path: url("#clip-7");
   }
-  #gajendra {
+  #sp8 {
     clip-path: url("#clip-8");
   }
-  #gshreyansh {
+  #sp9 {
     clip-path: url("#clip-9");
   }
-  #gsuraj {
+  #sp10 {
     clip-path: url("#clip-10");
+  }
+  #sp11 {
+    clip-path: url("#clip-11");
   }
 }
 .item:hover {
@@ -154,7 +121,7 @@ circle {
     transform: scale(1);
   }
   .contact-details {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
     .reveal {
       opacity: 1;
     }
@@ -209,5 +176,15 @@ circle {
 @media screen and (max-width: 600px) {
   .team-heading {
     margin-top: 0;
+  }
+  .item {
+    width: 80%;
+    height: 60%;
+    .contact-details {
+      font-size: 1.5rem;
+    }
+  }
+  .img-wrapper {
+    margin-bottom: 10px;
   }
 }

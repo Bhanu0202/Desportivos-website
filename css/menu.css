@@ -110,7 +110,7 @@ p a {
   position: fixed;
   width: 56px;
   top: 10%;
-  right: 120px;
+  right: 5%;
   transform: translate(-50%, -50%);
   font-size: 62px;
   font-family: "Josefin Sans", sans-serif;
@@ -145,10 +145,11 @@ p a {
 
 .bar {
   width: 85%;
-  height: 3px;
-  background: white;
+  height: 5px;
+  background: #e24594;
   margin: 0 auto 15px;
   transition: transform 0.4s ease;
+  border: 1px solid #282828;
 }
 
 .check-out {
@@ -281,4 +282,13 @@ p a {
   -webkit-transform: translateX(-20%) translateY(-100%) rotate(45deg);
   -ms-transform: translateX(-20%) translateY(-100%) rotate(45deg);
   transform: translateX(-20%) translateY(-100%) rotate(45deg);
+}
+
+@media screen and (max-width: 600px) {
+  .bar1 {
+    margin-bottom: 10px;
+  }
+  .bar {
+    margin-bottom: 10px;
+  }
 }
