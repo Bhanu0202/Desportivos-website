@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One|Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt&display=swap");
 $pink: #e24594;
 $lb: rgb(108, 208, 255);
 
@@ -29,7 +29,7 @@ body {
 
 #hero {
   z-index: 100;
-  font-family: "Saira Stencil One", sans-serif;
+  font-family: "Fugaz One", sans-serif;
   color: $pink;
   display: flex;
   flex-flow: column;
@@ -39,7 +39,7 @@ body {
   h1 {
     font-size: 6rem;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 5px $lb;
+    text-shadow: 2px 2px 1px $lb, 4px 4px 3px $pink;
     user-select: none;
     margin-bottom: 10px;
     transition: text-shadow 200ms linear;

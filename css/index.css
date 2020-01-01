@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One|Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt&display=swap");
 @-webkit-keyframes blip {
   0% {
     text-shadow: 3px 3px 5px #6cd0ff;
@@ -38,7 +38,7 @@ body {
 
 #hero {
   z-index: 100;
-  font-family: "Saira Stencil One", sans-serif;
+  font-family: "Fugaz One", sans-serif;
   color: #e24594;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +59,7 @@ body {
 #hero h1 {
   font-size: 6rem;
   letter-spacing: 5px;
-  text-shadow: 3px 3px 5px #6cd0ff;
+  text-shadow: 2px 2px 1px #6cd0ff, 4px 4px 3px #e24594;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
