@@ -2,6 +2,16 @@
 $pink: #e24594;
 $lb: rgb(108, 208, 255);
 
+@keyframes blip {
+  0% {
+    text-shadow: 3px 3px 5px $lb;
+  }
+  50% {
+    text-shadow: 0px 0px 5px transparent;
+    transform: scale(1.05);
+  }
+}
+
 body {
   background-color: #282828;
   margin: 0;
@@ -11,7 +21,7 @@ body {
 #background-vd {
   z-index: -1;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.5;
   max-width: 100%;
   top: 0;
   left: 0;
@@ -29,9 +39,11 @@ body {
   h1 {
     font-size: 6rem;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 10px $lb;
+    text-shadow: 3px 3px 5px $lb;
     user-select: none;
     margin-bottom: 10px;
+    transition: text-shadow 200ms linear;
+    animation: blip 1.5s linear infinite;
   }
   h5 {
     font-size: 2rem;

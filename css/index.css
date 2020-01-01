@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One|Rock+Salt&display=swap");
+@-webkit-keyframes blip {
+  0% {
+    text-shadow: 3px 3px 5px #6cd0ff;
+  }
+  50% {
+    text-shadow: 0px 0px 5px transparent;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+@keyframes blip {
+  0% {
+    text-shadow: 3px 3px 5px #6cd0ff;
+  }
+  50% {
+    text-shadow: 0px 0px 5px transparent;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
 body {
   background-color: #282828;
   margin: 0;
@@ -9,7 +30,7 @@ body {
 #background-vd {
   z-index: -1;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.5;
   max-width: 100%;
   top: 0;
   left: 0;
@@ -38,12 +59,16 @@ body {
 #hero h1 {
   font-size: 6rem;
   letter-spacing: 5px;
-  text-shadow: 3px 3px 10px #6cd0ff;
+  text-shadow: 3px 3px 5px #6cd0ff;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   margin-bottom: 10px;
+  -webkit-transition: text-shadow 200ms linear;
+  transition: text-shadow 200ms linear;
+  -webkit-animation: blip 1.5s linear infinite;
+          animation: blip 1.5s linear infinite;
 }
 
 #hero h5 {
