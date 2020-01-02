@@ -121,7 +121,7 @@ circle {
   -webkit-transform: translateX(40px);
           transform: translateX(40px);
   width: 40%;
-  border: 5px solid transparent;
+  border: 3px solid transparent;
   border-radius: 50%;
   padding: 5px;
   -webkit-transition: all 200ms ease-in-out;
@@ -136,7 +136,7 @@ circle {
 }
 
 .item-wrapper:hover .social a:hover img {
-  border: 5px solid #e24594;
+  border: 3px solid #e24594;
 }
 
 .item {
@@ -193,34 +193,69 @@ circle {
           clip-path: url("#clip-4");
 }
 
-.item #gaarshi {
+.item #st1 {
   -webkit-clip-path: url("#clip-5");
           clip-path: url("#clip-5");
 }
 
-.item #gjunaid {
+.item #st2 {
   -webkit-clip-path: url("#clip-6");
           clip-path: url("#clip-6");
 }
 
-.item #gvishesh {
+.item #st3 {
   -webkit-clip-path: url("#clip-7");
           clip-path: url("#clip-7");
 }
 
-.item #gajendra {
+.item #st4 {
   -webkit-clip-path: url("#clip-8");
           clip-path: url("#clip-8");
 }
 
-.item #gshreyansh {
+.item #st5 {
   -webkit-clip-path: url("#clip-9");
           clip-path: url("#clip-9");
 }
 
-.item #gsuraj {
+.item #st6 {
   -webkit-clip-path: url("#clip-10");
           clip-path: url("#clip-10");
+}
+
+.item #st7 {
+  -webkit-clip-path: url("#clip-11");
+          clip-path: url("#clip-11");
+}
+
+.item #gaarshi {
+  -webkit-clip-path: url("#clip-12");
+          clip-path: url("#clip-12");
+}
+
+.item #gjunaid {
+  -webkit-clip-path: url("#clip-13");
+          clip-path: url("#clip-13");
+}
+
+.item #gvishesh {
+  -webkit-clip-path: url("#clip-14");
+          clip-path: url("#clip-14");
+}
+
+.item #gajendra {
+  -webkit-clip-path: url("#clip-15");
+          clip-path: url("#clip-15");
+}
+
+.item #gshreyansh {
+  -webkit-clip-path: url("#clip-16");
+          clip-path: url("#clip-16");
+}
+
+.item #gsuraj {
+  -webkit-clip-path: url("#clip-17");
+          clip-path: url("#clip-17");
 }
 
 .item:hover circle,
@@ -302,6 +337,19 @@ circle {
 @media screen and (max-width: 600px) {
   .team-heading {
     margin-top: 0;
+  }
+  img {
+    height: 100%;
+  }
+  .item-wrapper {
+    height: 80%;
+  }
+  .item-wrapper .social {
+    height: 50%;
+  }
+  .item-wrapper .social img {
+    width: 60%;
+    height: 60%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

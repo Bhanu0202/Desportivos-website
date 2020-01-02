@@ -78,7 +78,7 @@ circle {
     img {
       transform: translateX(40px);
       width: 40%;
-      border: 5px solid transparent;
+      border: 3px solid transparent;
       border-radius: 50%;
       padding: 5px;
       transition: all 200ms ease-in-out;
@@ -91,7 +91,7 @@ circle {
       opacity: 1;
       a:hover {
         img {
-          border: 5px solid $pink;
+          border: 3px solid $pink;
         }
       }
     }
@@ -129,23 +129,44 @@ circle {
   #gbhanu {
     clip-path: url("#clip-4");
   }
-  #gaarshi {
+  #st1 {
     clip-path: url("#clip-5");
   }
-  #gjunaid {
+  #st2 {
     clip-path: url("#clip-6");
   }
-  #gvishesh {
+  #st3 {
     clip-path: url("#clip-7");
   }
-  #gajendra {
+  #st4 {
     clip-path: url("#clip-8");
   }
-  #gshreyansh {
+  #st5 {
     clip-path: url("#clip-9");
   }
-  #gsuraj {
+  #st6 {
     clip-path: url("#clip-10");
+  }
+  #st7 {
+    clip-path: url("#clip-11");
+  }
+  #gaarshi {
+    clip-path: url("#clip-12");
+  }
+  #gjunaid {
+    clip-path: url("#clip-13");
+  }
+  #gvishesh {
+    clip-path: url("#clip-14");
+  }
+  #gajendra {
+    clip-path: url("#clip-15");
+  }
+  #gshreyansh {
+    clip-path: url("#clip-16");
+  }
+  #gsuraj {
+    clip-path: url("#clip-17");
   }
 }
 .item:hover {
@@ -209,5 +230,20 @@ circle {
 @media screen and (max-width: 600px) {
   .team-heading {
     margin-top: 0;
+  }
+
+  img {
+    height: 100%;
+  }
+
+  .item-wrapper {
+    height: 80%;
+    .social {
+      height: 50%;
+      img {
+        width: 60%;
+        height: 60%;
+      }
+    }
   }
 }
