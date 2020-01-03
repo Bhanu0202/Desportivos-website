@@ -48,6 +48,9 @@ p a {
   color: rgb(108, 208, 255);
   text-decoration: none;
 }
+p a:hover{
+  color: white;
+}
 
 #menu {
   position: fixed;
@@ -147,18 +150,19 @@ p a {
   width: 85%;
   height: 5px;
   background: #e24594;
-  margin: 0 auto 15px;
+  margin: 0 auto 10px;
   transition: transform 0.4s ease;
   border: 1px solid #282828;
 }
 
 .check-out {
-  width: 100vw;
+  width: 50vw;
   z-index: 10000;
   position: fixed;
   bottom: 10%;
   left: 0%;
   font-size: 2rem;
+
 }
 
 .check-out ul {
@@ -172,6 +176,10 @@ p a {
 }
 .check-out a {
   color: white;
+}
+
+.check-out a:hover {
+  color: rgb(108, 208, 255);
 }
 
 .curtain-menu {
@@ -273,15 +281,15 @@ p a {
 }
 
 .curtain-menu-open .menu .bar1 {
-  -webkit-transform: translateX(-20%) translateY(-50%) rotate(-45deg);
-  -ms-transform: translateX(-20%) translateY(-50%) rotate(-45deg);
-  transform: translateX(-20%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-20%) translateY(50%) rotate(-45deg);
+  -ms-transform: translateX(-20%) translateY(50%) rotate(-45deg);
+  transform: translateX(-20%) translateY(50%) rotate(-45deg);
 }
 
 .curtain-menu-open .menu .bar2 {
-  -webkit-transform: translateX(-20%) translateY(-100%) rotate(45deg);
-  -ms-transform: translateX(-20%) translateY(-100%) rotate(45deg);
-  transform: translateX(-20%) translateY(-100%) rotate(45deg);
+  -webkit-transform: translateX(-20%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-20%) translateY(-50%) rotate(45deg);
+  transform: translateX(-20%) translateY(-50%) rotate(45deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -291,4 +299,33 @@ p a {
   .bar {
     margin-bottom: 10px;
   }
+}
+
+
+.button {
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  float: right;
+  width: 200px;
+  height: 20px;
+  font-size: 22px;
+  font-family: 'Ceviche One', sans-serif;
+  text-align: center;
+  background: rgba(108, 208, 255, 0.2);
+  padding: 15px 20px;
+  transition: all .5s ease;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 6000;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+.is-active {
+  box-shadow: 0 20px 5px -10px black;
+  transform: translateY(10px);
 }

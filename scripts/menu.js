@@ -63,3 +63,10 @@ $(".check-out").mouseleave(function() {
   $magic.removeClass("magics");
   $magic.addClass("magicm");
 });
+
+$(".button").hover(function(){
+  $(this).toggleClass("is-active");
+  var $magic = $("#magicm");
+  $magic.toggleClass("magics");
+  $magic.toggleClass("magicm");
+});

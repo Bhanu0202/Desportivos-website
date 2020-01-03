@@ -43,18 +43,6 @@ h3 {
   display: inline-block;
 }
 
-/*.magic {
-  z-index: 5;
-  position: absolute;
-  top: calc(50% - 10rem);
-  left: calc(50% - 10rem);
-  width: 10rem;
-  height: 10rem;
-  background: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif) 50% 50% repeat;
-  background-size: cover;
-  border-radius: 50%;
-  }*/
-
 .digits,
 .digits .digit {
   display: inline-block;
@@ -109,12 +97,12 @@ h3 {
 .digits .show {
   z-index: 10;
 
-  -webkit-transform: perspective(300) rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
 }
 
 .digits .roll-over {
-  -webkit-transform: perspective(300) rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
 }
 
