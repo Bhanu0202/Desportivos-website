@@ -16,11 +16,10 @@ $("div.demo").on("dragstart", "a", function() {
 
 $(".marquee")
   .marquee({
-    duration: 15000,
-    gap: 50,
-    delayBeforeStart: 0,
+    duration: 7000,
+    delayBeforeStart: -50000,
     direction: "left",
-    duplicated: true
+    duplicated: false
   })
   .dblclick(function() {
     $(this).marquee("pause");
@@ -62,4 +61,11 @@ $(".check-out").mouseleave(function() {
   var $magic = $("#magicm");
   $magic.removeClass("magics");
   $magic.addClass("magicm");
+});
+
+$(".button").hover(function(){
+  $(this).toggleClass("is-active");
+  var $magic = $("#magicm");
+  $magic.toggleClass("magics");
+  $magic.toggleClass("magicm");
 });

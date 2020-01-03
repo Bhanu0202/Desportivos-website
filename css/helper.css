@@ -151,7 +151,7 @@ main {
     -webkit-text-stroke: 0px white;
     -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 650px) {
     .page-heading::after {
       display: block;
       content: "Contact us";
@@ -167,9 +167,10 @@ main {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .page-heading {
-    font-size: 2rem;
+    margin-top: 20vh;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=helper.css.map */
