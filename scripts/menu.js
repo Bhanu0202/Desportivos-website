@@ -17,7 +17,7 @@ $("div.demo").on("dragstart", "a", function() {
 $(".marquee")
   .marquee({
     duration: 7000,
-    delayBeforeStart: -50000,
+    delayBeforeStart: 0,
     direction: "left",
     duplicated: false
   })
