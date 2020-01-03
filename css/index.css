@@ -77,4 +77,20 @@ body {
   color: #6cd0ff;
   text-shadow: 2px 2px 1px #e24594, 3px 3px 10px #6cd0ff;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #background-vd {
+    position: fixed;
+    left: -110%;
+    max-width: none;
+    height: 100%;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
