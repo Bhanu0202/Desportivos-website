@@ -5,6 +5,7 @@
 .page-heading::after {
   content: "About Us";
 }
+
 body {
   background-color: #282828;
   font-size: 40px;
@@ -32,10 +33,13 @@ main {
   width: 40%;
 }
 
+.flex-item {
+  padding: 0 2%;
+}
+
 h3 {
   margin: 0;
   padding: 0;
-  display: inline-block;
 }
 
 .stats {
@@ -96,7 +100,6 @@ h3 {
 
 .digits .show {
   z-index: 10;
-
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
 }
@@ -115,4 +118,8 @@ h3 {
   .digits .bottom-half-wrapper {
     width: 80px;
   }
+/*
+  h3 {
+  display: block;
+}*/
 }

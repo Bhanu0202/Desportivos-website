@@ -16,11 +16,10 @@ $("div.demo").on("dragstart", "a", function() {
 
 $(".marquee")
   .marquee({
-    duration: 15000,
-    gap: 50,
-    delayBeforeStart: 0,
+    duration: 7000,
+    delayBeforeStart: -50000,
     direction: "left",
-    duplicated: true
+    duplicated: false
   })
   .dblclick(function() {
     $(this).marquee("pause");
