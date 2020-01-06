@@ -277,7 +277,9 @@ var eventsContent = {
                                                     <p>Only one player can play in two matches (one singles and one
                                                         doubles).</p>
                                                     <p>Decision of referees and Organising Committee will be final and
-                                                        binding.</p>
+                                                        binding.</p><br>
+                                                        <p><b>Girls - Singles event only</b><br> 
+Best of 3 of 15 points each (for duce maximum point will be 20)  up to pre-quarterfinals and from quarterfinal matches will be best of 3 (21 points each).</p>
                                                 </div>
                                                 <hr>
                                                 <div class="row">
