@@ -17,10 +17,8 @@ var eventsContent = {
             <hr>
             <div class="row">
                 <div class="col-12 col-sm-6">Devendra Shekhawat<br><a href="tel:+91-6378651940" title="Click to Call">+91-6378651940</a></div>
+                <div class="col-12 col-sm-6">Priyank Singh<br><a href="tel:+91-7895323230" title="Click to Call">+91-7895323230</a></div>
                 <div class="col-12 col-sm-6">Mriganshi Sharma<br><a href="tel:+91-7976159409" title="Click to Call">+91-7976159409</a></div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-6">Priyank<br><a href="tel:+91-7895323230" title="Click to Call">+91-7895323230</a></div>
             </div>`
   },
   Boxing: {
@@ -168,8 +166,8 @@ var eventsContent = {
                                                 </div>
                                                 <hr>
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-6 col-md-4">Dhruv Yadav<br><a href="tel:+91-9999640075" title="Click to Call">9999640075</a></div>
                                                     <div class="col-12 col-sm-6 col-md-4">Nandirudra Singh Mokalsar<br><a href="tel:+91-9414980787" title="Click to Call">9414980787</a></div>
+                                                    <div class="col-12 col-sm-6 col-md-4">Dhruv Yadav<br><a href="tel:+91-9999640075" title="Click to Call">9999640075</a></div>
                                                     <div class="col-12 col-sm-6 col-md-4">Shubhangi Sharma<br><a href="tel:+91-6377914790" title="Click to Call">6377914790</a></div>
                                                     <div class="col-12 col-sm-6 col-md-4">Poonam Baheti<br><a href="tel:+91-9521063425" title="Click to Call">9521063425</a></div>
                                                 </div>`

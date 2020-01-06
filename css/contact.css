@@ -169,93 +169,138 @@ circle {
 }
 
 .item #gmanthan {
-  -webkit-clip-path: url("#clip-0");
-          clip-path: url("#clip-0");
-}
-
-.item #gaastha {
   -webkit-clip-path: url("#clip-1");
           clip-path: url("#clip-1");
 }
 
-.item #grithvick {
+.item #gaastha {
   -webkit-clip-path: url("#clip-2");
           clip-path: url("#clip-2");
 }
 
-.item #gritik {
+.item #grithvick {
   -webkit-clip-path: url("#clip-3");
           clip-path: url("#clip-3");
 }
 
-.item #gbhanu {
+.item #gritik {
   -webkit-clip-path: url("#clip-4");
           clip-path: url("#clip-4");
 }
 
-.item #st1 {
+.item #gbhanu {
   -webkit-clip-path: url("#clip-5");
           clip-path: url("#clip-5");
 }
 
-.item #st2 {
+.item #gritikM {
   -webkit-clip-path: url("#clip-6");
           clip-path: url("#clip-6");
 }
 
-.item #st3 {
+.item #pt7 {
   -webkit-clip-path: url("#clip-7");
           clip-path: url("#clip-7");
 }
 
-.item #st4 {
+.item #pt8 {
   -webkit-clip-path: url("#clip-8");
           clip-path: url("#clip-8");
 }
 
-.item #st5 {
+.item #pt9 {
   -webkit-clip-path: url("#clip-9");
           clip-path: url("#clip-9");
 }
 
-.item #st6 {
+.item #pt10 {
   -webkit-clip-path: url("#clip-10");
           clip-path: url("#clip-10");
 }
 
-.item #st7 {
+.item #pt11 {
   -webkit-clip-path: url("#clip-11");
           clip-path: url("#clip-11");
 }
 
-.item #gaarshi {
+.item #tt12 {
   -webkit-clip-path: url("#clip-12");
           clip-path: url("#clip-12");
 }
 
-.item #gjunaid {
+.item #tt13 {
   -webkit-clip-path: url("#clip-13");
           clip-path: url("#clip-13");
 }
 
-.item #gvishesh {
+.item #st13 {
+  -webkit-clip-path: url("#clip-13");
+          clip-path: url("#clip-13");
+}
+
+.item #st14 {
   -webkit-clip-path: url("#clip-14");
           clip-path: url("#clip-14");
 }
 
-.item #gajendra {
+.item #st15 {
   -webkit-clip-path: url("#clip-15");
           clip-path: url("#clip-15");
 }
 
-.item #gshreyansh {
+.item #st16 {
   -webkit-clip-path: url("#clip-16");
           clip-path: url("#clip-16");
 }
 
-.item #gsuraj {
+.item #st17 {
   -webkit-clip-path: url("#clip-17");
           clip-path: url("#clip-17");
+}
+
+.item #st18 {
+  -webkit-clip-path: url("#clip-18");
+          clip-path: url("#clip-18");
+}
+
+.item #st19 {
+  -webkit-clip-path: url("#clip-19");
+          clip-path: url("#clip-19");
+}
+
+.item #st20 {
+  -webkit-clip-path: url("#clip-20");
+          clip-path: url("#clip-20");
+}
+
+.item #gaarshi {
+  -webkit-clip-path: url("#clip-21");
+          clip-path: url("#clip-21");
+}
+
+.item #gjunaid {
+  -webkit-clip-path: url("#clip-22");
+          clip-path: url("#clip-22");
+}
+
+.item #gvishesh {
+  -webkit-clip-path: url("#clip-23");
+          clip-path: url("#clip-23");
+}
+
+.item #gajendra {
+  -webkit-clip-path: url("#clip-24");
+          clip-path: url("#clip-24");
+}
+
+.item #gshreyansh {
+  -webkit-clip-path: url("#clip-25");
+          clip-path: url("#clip-25");
+}
+
+.item #gsuraj {
+  -webkit-clip-path: url("#clip-26");
+          clip-path: url("#clip-26");
 }
 
 .item:hover circle,

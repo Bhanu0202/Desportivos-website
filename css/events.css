@@ -36,8 +36,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
   }
   .wrapper {
     z-index: 1000;
@@ -78,7 +78,7 @@
     padding: 10px;
     border-radius: 0px;
   }
-  #items li {
+  li {
     width: 100%;
     -webkit-text-stroke: 1px #6cd0ff;
     -webkit-text-fill-color: transparent;
@@ -99,28 +99,27 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  /*.page-heading-wrapper {
+@media screen and (max-width: 600px) {
+  .page-heading-wrapper {
     width: 100%;
-    //background: #282828;
+    background: #282828;
     position: fixed;
     z-index: 20000;
-  }*/
-  .page-heading{
-    margin-top: 12vh;
   }
-  /*.page-heading::after {
+  .page-heading-wrapper h1 {
+    margin: 10px;
+  }
+  .page-heading::after {
     content: "Events";
     -webkit-transform-origin: 50% 20%;
             transform-origin: 50% 20%;
   }
-*/  body {
+  body {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #282828;
-    
   }
   img {
     -o-object-fit: cover;
@@ -145,9 +144,12 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
     width: 80%;
   }
   .wrapper {
+    margin-top: 30%;
     z-index: 1000;
     font-family: "Ceviche One", sans-serif;
     font-size: 2rem;
@@ -170,7 +172,7 @@
   .wrapper img {
     width: 80%;
   }
-  .wrapper ul {
+  ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -203,7 +205,7 @@
     padding: 10px;
     border-radius: 0px;
   }
-  #items li {
+  li {
     -webkit-text-stroke: 1px #6cd0ff;
     -webkit-text-fill-color: transparent;
     background-clip: text;
