@@ -19,7 +19,7 @@ $(".marquee")
     duration: 7000,
     delayBeforeStart: 0,
     direction: "left",
-    duplicated: false
+    duplicated: true
   })
   .dblclick(function() {
     $(this).marquee("pause");
@@ -63,7 +63,7 @@ $(".check-out").mouseleave(function() {
   $magic.addClass("magicm");
 });
 
-$(".button").hover(function(){
+$(".button").hover(function() {
   $(this).toggleClass("is-active");
   var $magic = $("#magicm");
   $magic.toggleClass("magics");
