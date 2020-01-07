@@ -19,6 +19,7 @@ var eventsContent = {
                 <div class="col-12 col-sm-6">Devendra Shekhawat<br><a href="tel:+91-6378651940" title="Click to Call">+91-6378651940</a></div>
                 <div class="col-12 col-sm-6">Priyank Singh<br><a href="tel:+91-7895323230" title="Click to Call">+91-7895323230</a></div>
                 <div class="col-12 col-sm-6">Mriganshi Sharma<br><a href="tel:+91-7976159409" title="Click to Call">+91-7976159409</a></div>
+                <div class="col-12 col-sm-6">Kritika Aggarwal<br><a href="tel:+91-9958766955" title="Click to Call">+91-9958766955</a></div>
             </div>`
   },
   Boxing: {
