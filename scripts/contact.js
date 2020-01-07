@@ -8,7 +8,11 @@ console.log(items);
     pt.x = el.clientX;
     pt.y = el.clientY;
     c = pt.matrixTransform(svg.getScreenCTM().inverse());
-    clip = document.querySelector("#clip-" + (i + 1) + " circle");
+    if (i === 6) clip = document.querySelector("#clip-" + 100 + " circle");
+    else if (i == 7) clip = document.querySelector("#clip-" + 101 + " circle");
+    else if (i > 7)
+      clip = document.querySelector("#clip-" + (i - 1) + " circle");
+    else clip = document.querySelector("#clip-" + (i + 1) + " circle");
     clip.setAttribute("cx", c.x);
     clip.setAttribute("cy", c.y);
   });

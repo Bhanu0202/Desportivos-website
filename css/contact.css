@@ -303,6 +303,16 @@ circle {
           clip-path: url("#clip-26");
 }
 
+.item #gabhinav {
+  -webkit-clip-path: url("#clip-100");
+          clip-path: url("#clip-100");
+}
+
+.item #gjoshi {
+  -webkit-clip-path: url("#clip-101");
+          clip-path: url("#clip-101");
+}
+
 .item:hover circle,
 .item:hover .image {
   -webkit-transform: scale(1);

@@ -306,9 +306,9 @@ Best of 3 of 15 points each (for duce maximum point will be 20)  up to pre-quart
                                                     <div class="col-12 col-md-6">Vipul Khandelwal<br><a href="tel:+91-8696941353" title="Click to Call">+91-8696941353</a></div>
                                                 </div>`
   },
-  Lifting: {
+  "Power Lifting": {
     svg: "path-to-svg",
-    header: "Lifting Rules",
+    header: "Power Lifting Rules",
     body: ` <div>
                                                     <h5>Rules</h5>
                                                     <p>Athletes in the sport are divided in three weight classes and placing is based on the total weight lifted on the three main lifts: <b>Squat</b>, <b>Bench Press</b>, <b>Dead Lift</b></p>
