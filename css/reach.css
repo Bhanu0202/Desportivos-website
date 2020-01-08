@@ -17,7 +17,7 @@
 
 .details-on-map {
   position: relative;
-  width: 50%;
+  width: 40%;
   height: 0rem;
 }
 #map {
@@ -49,6 +49,18 @@
   background-color: rgba(233, 229, 220, 1);
   outline: 1px solid transparent;
   overflow: hidden;
+}
+
+@media screen and (max-width: 760px) {
+  .details-on-map {
+    width: 100%;
+  }
+  #map{
+    width: 80vw;
+  }
+  .map-side{
+    width: 20vw;
+  }
 }
 
 .map-side::before {
@@ -91,7 +103,7 @@
   transform: translateX(-5.05rem) rotateY(60deg);
 }
 
-/*.........*......................................................*/
+/*................................................................*/
 .show-map.details-on-map {
   height: 21rem;
 }
