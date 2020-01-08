@@ -14,61 +14,51 @@ $("div.demo").on("dragstart", "a", function() {
   return false;
 });
 
-if (screen.width <= 650) {
+function resize() {
+
+  if ($(window).width() >= 650) {
+    $('div.demo').addClass('marquee');
+  } 
+  else {
+    $('div.demo').removeClass('marquee');
+  }
+
   $(".marquee")
-    .marquee({
-      duration: 7000,
-      delayBeforeStart: 0,
-      direction: "left",
-      duplicated: false
-    })
-    .dblclick(function() {
-      $(this).marquee("pause");
-    })
-    .mousemove(function(event) {
-      if ($(this).data("drag") == true) {
-        this.scrollLeft =
-          $(this).data("scrollX") + ($(this).data("x") - event.clientX);
-        cancelFollow = true;
-      }
-    })
-    .mousedown(function(event) {
-      $(this)
-        .data("drag", true)
-        .data("x", event.clientX)
-        .data("scrollX", this.scrollLeft);
-    })
-    .mouseup(function() {
-      $(this).data("drag", false);
-    });
-} else {
-  $(".marquee")
-    .marquee({
-      duration: 10000,
-      delayBeforeStart: 0,
-      direction: "left",
-      duplicated: true
-    })
-    .dblclick(function() {
-      $(this).marquee("pause");
-    })
-    .mousemove(function(event) {
-      if ($(this).data("drag") == true) {
-        this.scrollLeft =
-          $(this).data("scrollX") + ($(this).data("x") - event.clientX);
-        cancelFollow = true;
-      }
-    })
-    .mousedown(function(event) {
-      $(this)
-        .data("drag", true)
-        .data("x", event.clientX)
-        .data("scrollX", this.scrollLeft);
-    })
-    .mouseup(function() {
-      $(this).data("drag", false);
-    });
-}
+  .marquee({
+    duration: 7000,
+    delayBeforeStart: 0,
+    direction: "left",
+    duplicated: true
+  })
+  .dblclick(function() {
+    $(this).marquee("pause");
+  })
+  .mousemove(function(event) {
+    if ($(this).data("drag") == true) {
+      this.scrollLeft =
+      $(this).data("scrollX") + ($(this).data("x") - event.clientX);
+      cancelFollow = true;
+    }
+  })
+  .mousedown(function(event) {
+    $(this)
+    .data("drag", true)
+    .data("x", event.clientX)
+    .data("scrollX", this.scrollLeft);
+  })
+  .mouseup(function() {
+    $(this).data("drag", false);
+  });
+
+};
+$(document).ready( function() {
+  resize();
+});
+
+$(document).resize( function() {
+  resize();
+});
+
 
 $("[data-curtain-menu-button]").click(function() {
   $("body").toggleClass("curtain-menu-open");
@@ -76,7 +66,7 @@ $("[data-curtain-menu-button]").click(function() {
 
 $(document).on("mousemove", function(e) {
   var $magic = $("#magicm"),
-    magicWHalf = $magic.width() / 2;
+  magicWHalf = $magic.width() / 2;
   $magic.css({ left: e.pageX - magicWHalf, top: e.pageY - magicWHalf });
 });
 

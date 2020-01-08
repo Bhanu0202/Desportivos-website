@@ -46,18 +46,19 @@ body {
   vertical-align: super;
 }
 
-.marquee a {
+p a {
+  cursor: grab;
   color: rgb(108, 208, 255);
   text-decoration: none;
 }
-.marquee a:hover{
+p a:hover {
   color: white;
 }
 
 @media screen and (max-width: 650px) {
 
-  .marquee{
-    margin-top: 60%;
+  .demo p {
+    margin-top: 200px;
   }
   .demo a {
     text-align: center;
@@ -67,8 +68,8 @@ body {
     padding: 0;
   }
 
-  .marquee span {
-  display: none;
+  p span {
+    display: none;
   }
 }
 
@@ -118,18 +119,6 @@ body {
     -webkit-text-stroke: 0px white;
     -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
   }
-  /*@media screen and (min-width: 650px) {
-    .menu-heading::after {
-      display: block;
-      content: attr(id);
-      position: absolute;
-      top: 10%;
-      left: 0%;
-      width: 100%;
-      -webkit-text-stroke: 0px white;
-      -webkit-text-fill-color: rgba(226, 69, 148, 0.05);
-    }
-  }*/
 }
 
 /*hamburger menu........................................................*/
@@ -176,7 +165,7 @@ body {
   .menu {
     position: absolute;
     top: 10vh;
-    left: 100px;
+    left: 50vw;
   }
 
   .curtain-menu-open .menu {
@@ -335,15 +324,6 @@ body {
   -ms-transform: translateX(-20%) translateY(-50%) rotate(45deg);
   transform: translateX(-20%) translateY(-50%) rotate(45deg);
 }
-
-/*@media screen and (max-width: 600px) {
-  .bar1 {
-    margin-bottom: 10px;
-  }
-  .bar {
-    margin-bottom: 10px;
-  }
-}*/
 
 .button {
   position: fixed;

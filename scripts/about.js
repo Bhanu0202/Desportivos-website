@@ -3,13 +3,6 @@ $(document).ready(function(){
   $(this).scrollTop(0);
 });
 
-// $(document).on("mousemove", function(e) { 
-//     var $magic = $("#magic"),
-//       magicWHalf = $magic.width() / 2;
-//     $magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
-//   });
-
-
 //Basic JS Operations
 var JS = {
   createElement: function (params) {
@@ -220,13 +213,9 @@ var Digits = function (params) {
     params.wrapper = params.wrapper && document.querySelector(params.wrapper);
     params.mode = params.mode || 'countdown';
     params.labels = params.labels || false;
-
-      // if (!params.wrapper) {
-      //   throw Error('Missing parameters');
-      // } else {
-        params.wrapper.innerHTML = '';
-        params.wrapper = JS.createElement({ parent: params.wrapper, type: 'div', classes: [classes.main] });
-        
+    params.wrapper.innerHTML = '';
+    params.wrapper = JS.createElement({ parent: params.wrapper, type: 'div', classes: [classes.main] });
+    
     // Main Class
     params.wrapper.classList.add(classes.main);
     params.wrapper.classList.add(classes.statistics);

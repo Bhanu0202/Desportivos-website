@@ -78,7 +78,7 @@ body {
   text-shadow: 2px 2px 1px #e24594, 3px 3px 10px #6cd0ff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   body {
     overflow-x: hidden;
     overflow-y: hidden;
