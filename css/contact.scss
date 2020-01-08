@@ -6,7 +6,7 @@ $lb: rgb(108, 208, 255);
   font-family: "Sedgwick Ave Display";
   font-size: 3rem;
   @supports (-webkit-text-stroke: 1px $pink) {
-    -webkit-text-stroke: 0.1px $lb;
+    -webkit-text-stroke: 1px $lb;
     -webkit-text-fill-color: transparent;
   }
   margin: 60px 10px;

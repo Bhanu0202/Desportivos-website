@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300");
-@import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One|Faster+One&display=swap");
 body {
   margin-top: 0;
   padding-top: 0;
@@ -56,15 +56,16 @@ p a:hover {
 }
 
 @media screen and (max-width: 650px) {
-
   .demo p {
     margin-top: 200px;
   }
   .demo a {
+    font-family: "Faster One", sans-serif;
+    transform: translateX(-100%);
     text-align: center;
     display: block;
-    font-size: 70px;
-    margin: 0;
+    font-size: 40px;
+    margin: 10px 0;
     padding: 0;
   }
 

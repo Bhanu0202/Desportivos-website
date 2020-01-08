@@ -446,6 +446,8 @@ function createModal(container) {
 
   function onClick() {
     if (modal.isOpen) {
+      console.log("jj");
+
       close();
     }
   }

@@ -144,11 +144,12 @@
     }
   }
   ul {
-    display: flex;
+    display: block;
     flex-flow: row;
     flex-wrap: wrap;
-    z-index: 1000;
+    justify-content: center;
     list-style: none;
+    z-index: 1000;
     margin: 0;
     padding: 0;
   }
@@ -159,21 +160,19 @@
     width: 100%;
     height: 100%;
     overflow: auto;
+    height: 350px;
   }
   .item {
-    width: 40%;
+    width: 90%;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
     transition: all 200ms ease-in-out;
     padding: 10px;
-    border-radius: 0px;
+    background-color: #3b3b3b;
   }
-
   li {
-    -webkit-text-stroke: 1px $lb;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: $lb;
+    border-radius: 5px;
   }
 
   li:hover {
