@@ -4,6 +4,7 @@ body {
   margin-top: 0;
   padding-top: 0;
   position: relative;
+  overflow-y: auto;
 }
 
 .magicm {
