@@ -116,6 +116,25 @@ h3 {
   }
   .digits .top-half-wrapper,
   .digits .bottom-half-wrapper {
-    width: 80px;
+    width: 60px;
+    height: 50px;
+  }
+  .flex-item {
+    width: 100%;
+    justify-content: center;
+  }
+  .flex-item h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .stats {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .item p {
+    font-size: 2rem;
+    text-align: center;
   }
 }
