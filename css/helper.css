@@ -122,8 +122,8 @@ main {
   display: inline-block;
   text-align: center;
   width: 100%;
-  -webkit-animation: danger-zone 1.5s linear infinite;
-          animation: danger-zone 1.5s linear infinite;
+  -webkit-animation: danger-zone 3s linear infinite;
+          animation: danger-zone 3s linear infinite;
   position: relative;
 }
 
@@ -169,7 +169,8 @@ main {
 
 @media screen and (max-width: 600px) {
   .page-heading {
-    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=helper.css.map */

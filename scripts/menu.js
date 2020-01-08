@@ -13,6 +13,7 @@ $(".demo a").click(function(e) {
 $("div.demo").on("dragstart", "a", function() {
   return false;
 });
+
 if (screen.width <= 650) {
   $(".marquee")
     .marquee({

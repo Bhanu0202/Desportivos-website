@@ -7,7 +7,7 @@
 
 @supports (-webkit-text-stroke: 1px #e24594) {
   .team-heading {
-    -webkit-text-stroke: 0.1px #6cd0ff;
+    -webkit-text-stroke: 1px #6cd0ff;
     -webkit-text-fill-color: transparent;
   }
 }
