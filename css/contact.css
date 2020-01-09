@@ -45,7 +45,7 @@
   position: relative;
 }
 
-img {
+main img {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
@@ -393,7 +393,7 @@ circle {
   .team-heading {
     margin-top: 0;
   }
-  img {
+  main img {
     height: 100%;
   }
   .item-wrapper {

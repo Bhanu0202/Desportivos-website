@@ -91,11 +91,22 @@ p a:hover {
   animation: danger-zone 1.5s linear infinite;
 }
 
+#toggle {
+  position: absolute;
+  display: none;
+  top: 20px;
+  left: 30px;
+}
+
 @media screen and (max-width: 650px) {
   .menu-heading {
     font-size: 2.5rem;
     top: -40px;
     left: 20px;
+    display: none;
+  }
+  #toggle {
+    display: block;
   }
 }
 
@@ -166,17 +177,28 @@ p a:hover {
 @media screen and (max-width: 650px) {
   .menu {
     position: absolute;
-    top: 10vh;
-    left: 50vw;
+    top: 70px;
+    right: 15px;
   }
 
   .curtain-menu-open .menu {
     position: fixed;
+    right: 50px;
   }
+
+  .menu:hover::before,
+.menu:hover::after {
+  display: none;
+}
+
+  .curtain-menu-open .menu:hover::before,
+.curtain-menu-open .menu:hover::after {
+  display: block;
+}
 }
 
 .bar {
-  width: 85%;
+  width: 50px;
   height: 5px;
   background: #e24594;
   margin: 0 auto 10px;
@@ -196,11 +218,11 @@ p a:hover {
 .check-out ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2rem;
 }
 .check-out li {
   display: inline;
-  padding: 2rem;
+  padding-right: 4rem;
 }
 .check-out a {
   color: white;
