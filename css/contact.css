@@ -315,6 +315,11 @@ circle {
           clip-path: url("#clip-100");
 }
 
+.item #tabhinav {
+  -webkit-clip-path: url("#clip-7");
+          clip-path: url("#clip-7");
+}
+
 .item #gjoshi {
   -webkit-clip-path: url("#clip-101");
           clip-path: url("#clip-101");

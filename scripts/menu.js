@@ -1,5 +1,5 @@
 var cancelFollow = false;
-$(".marquee").scrollLeft(10000);
+$(".marquee").scrollLeft(1000);
 // decides whether to follow the link or cancel it
 $(".demo a").click(function(e) {
   if (cancelFollow) {

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 650px) {
   .page-heading::after {
     content: "Events";
     -webkit-transform-origin: 50% 20%;
@@ -10,7 +10,6 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    overflow: hidden;
     background-color: #282828;
   }
   img {
@@ -36,8 +35,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 2%;
   }
   .wrapper {
     z-index: 1000;
@@ -99,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   
   .page-heading::after {
     content: "Events";
