@@ -45,7 +45,7 @@
   position: relative;
 }
 
-main img {
+img {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
@@ -233,11 +233,6 @@ circle {
           clip-path: url("#clip-13");
 }
 
-.item #st13 {
-  -webkit-clip-path: url("#clip-13");
-          clip-path: url("#clip-13");
-}
-
 .item #st14 {
   -webkit-clip-path: url("#clip-14");
           clip-path: url("#clip-14");
@@ -273,34 +268,54 @@ circle {
           clip-path: url("#clip-20");
 }
 
-.item #gaarshi {
+.item #st21 {
   -webkit-clip-path: url("#clip-21");
           clip-path: url("#clip-21");
 }
 
-.item #gjunaid {
+.item #st22 {
   -webkit-clip-path: url("#clip-22");
           clip-path: url("#clip-22");
 }
 
-.item #gvishesh {
+.item #et23 {
   -webkit-clip-path: url("#clip-23");
           clip-path: url("#clip-23");
 }
 
-.item #gajendra {
+.item #et24 {
   -webkit-clip-path: url("#clip-24");
           clip-path: url("#clip-24");
 }
 
-.item #gshreyansh {
+.item #gaarshi {
   -webkit-clip-path: url("#clip-25");
           clip-path: url("#clip-25");
 }
 
-.item #gsuraj {
+.item #gjunaid {
   -webkit-clip-path: url("#clip-26");
           clip-path: url("#clip-26");
+}
+
+.item #gvishesh {
+  -webkit-clip-path: url("#clip-27");
+          clip-path: url("#clip-27");
+}
+
+.item #gajendra {
+  -webkit-clip-path: url("#clip-28");
+          clip-path: url("#clip-28");
+}
+
+.item #gshreyansh {
+  -webkit-clip-path: url("#clip-29");
+          clip-path: url("#clip-29");
+}
+
+.item #gsuraj {
+  -webkit-clip-path: url("#clip-30");
+          clip-path: url("#clip-30");
 }
 
 .item #gabhinav {
@@ -393,7 +408,7 @@ circle {
   .team-heading {
     margin-top: 0;
   }
-  main img {
+  img {
     height: 100%;
   }
   .item-wrapper {

@@ -74,7 +74,7 @@ main {
   display: inline-block;
   text-align: center;
   width: 100%;
-  animation: danger-zone 1.5s linear infinite;
+  animation: danger-zone 1s linear infinite;
   position: relative;
   @supports (-webkit-text-stroke: 1px $pink) {
     -webkit-text-stroke: 0.1px $pink;
