@@ -7,6 +7,10 @@ body {
   overflow-y: auto;
 }
 
+body div.js-marquee {
+  height: 300px;
+}
+
 .magicm {
   z-index: 5000;
   position: absolute;
@@ -31,14 +35,20 @@ body {
 }
 
 /*marquee........................................*/
+body div.js-marquee {
+  height: 200px;
+}
+
 .demo {
+  white-space: nowrap;
   user-select: none;
   position: absolute;
   font-size: 150px;
   width: 100vw;
-  overflow: hidden;
+  overflow: auto;
   font-family: "Ceviche One", sans-serif;
   z-index: 10000;
+  cursor: grab;
 }
 .marquee span {
   font-size: 40px;
@@ -47,8 +57,12 @@ body {
   vertical-align: super;
 }
 
+.marquee p{
+  position: relative;
+  top: -140px;
+}
+
 p a {
-  cursor: grab;
   color: rgb(108, 208, 255);
   text-decoration: none;
 }
@@ -190,6 +204,9 @@ p a:hover {
 .menu:hover::after {
   display: none;
 }
+.menu::before, .menu::after {
+  display: none;
+}
 
   .curtain-menu-open .menu:hover::before,
 .curtain-menu-open .menu:hover::after {
@@ -236,7 +253,6 @@ p a:hover {
 #menu {
   position: fixed;
   z-index: 20000;
-  cursor: grab;
 }
 
 .curtain-menu {
@@ -381,4 +397,12 @@ p a:hover {
   .check-out {
     width: 10vw;
   }
+}
+
+.marquee::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee {
+  -ms-overflow-style: none;
 }

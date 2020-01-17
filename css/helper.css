@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 0 5% 0 0;
+  margin: 0 0 0 0;
 }
 
 .flex-row {
@@ -137,7 +137,7 @@ main {
   }
   .page-heading:hover {
     background-color: #e24594;
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 1px white;
   }
   .page-heading::after {
     display: block;

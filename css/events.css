@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barrio|Ceviche+One&display=swap");
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 650px) {
   .page-heading::after {
     content: "Events";
     -webkit-transform-origin: 50% 20%;
@@ -10,7 +10,6 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    overflow: hidden;
     background-color: #282828;
   }
   img {
@@ -36,8 +35,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 2%;
   }
   .wrapper {
     z-index: 1000;
@@ -99,6 +97,7 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
   .page-heading-wrapper {
     width: 100%;
@@ -109,6 +108,10 @@
   .page-heading-wrapper h1 {
     margin: 10px;
   }
+=======
+@media screen and (max-width: 650px) {
+  
+>>>>>>> cb01d08a3878c3a5675c4a514d202f21e0ad3263
   .page-heading::after {
     content: "Events";
     -webkit-transform-origin: 50% 20%;
@@ -144,9 +147,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+<<<<<<< HEAD
     margin-top: 5%;
     margin-left: 10%;
     width: 80%;
+=======
+    //margin-top: 100px;
+    width: 90%;
+>>>>>>> cb01d08a3878c3a5675c4a514d202f21e0ad3263
   }
   .wrapper {
     margin-top: 30%;

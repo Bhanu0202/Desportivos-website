@@ -520,9 +520,10 @@ ul.addEventListener("mouseover", e => {
     }, 500);
   }
 });
-if (screen.width >= 601) {
+
   let prevpos = 0;
   document.addEventListener("mousemove", e => {
+      if ($(window).width() >= 650) {
     const pos = ul.getBoundingClientRect().y;
     let direction;
     if (prevpos > pos) direction = "up";
@@ -541,8 +542,8 @@ if (screen.width >= 601) {
         l.style.transform = "scaleY(1) rotate3d(0, 0, 0, 0)";
       });
     }, 80);
-  });
 }
+  });
 
 ul.addEventListener("click", e => {
   if (e.target.tagName === "LI") {

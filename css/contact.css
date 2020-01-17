@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Knewave&display=swap");
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .team-heading {
   font-family: "Sedgwick Ave Display";
   font-size: 3rem;
@@ -321,6 +328,11 @@ circle {
 .item #gabhinav {
   -webkit-clip-path: url("#clip-100");
           clip-path: url("#clip-100");
+}
+
+.item #tabhinav {
+  -webkit-clip-path: url("#clip-7");
+          clip-path: url("#clip-7");
 }
 
 .item #gjoshi {

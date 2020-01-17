@@ -1,5 +1,5 @@
 var cancelFollow = false;
-
+$(".marquee").scrollLeft(1000);
 // decides whether to follow the link or cancel it
 $(".demo a").click(function(e) {
   if (cancelFollow) {
@@ -28,8 +28,11 @@ function resize() {
       direction: "left",
       duplicated: true
     })
-    .dblclick(function() {
+    .hover(function() {
       $(this).marquee("pause");
+    })
+    .mouseleave(function() {
+      $(this).marquee("resume");
     })
     .mousemove(function(event) {
       if ($(this).data("drag") == true) {
@@ -43,13 +46,16 @@ function resize() {
         .data("drag", true)
         .data("x", event.clientX)
         .data("scrollX", this.scrollLeft);
+        console.log(this.scrollLeft);
     })
     .mouseup(function() {
       $(this).data("drag", false);
     });
 }
 $(document).ready(function() {
+  
   resize();
+  
 });
 
 $(document).resize(function() {
