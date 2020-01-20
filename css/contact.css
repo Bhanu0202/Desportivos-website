@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Knewave&display=swap");
-body{
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
 .team-heading {
   font-family: "Sedgwick Ave Display";
   font-size: 3rem;
@@ -205,17 +198,17 @@ circle {
           clip-path: url("#clip-6");
 }
 
-.item #pt7 {
+.item #gabhinav {
   -webkit-clip-path: url("#clip-7");
           clip-path: url("#clip-7");
 }
 
-.item #pt8 {
+.item #gjoshi {
   -webkit-clip-path: url("#clip-8");
           clip-path: url("#clip-8");
 }
 
-.item #pt9 {
+.item #tabhinav {
   -webkit-clip-path: url("#clip-9");
           clip-path: url("#clip-9");
 }
@@ -230,27 +223,27 @@ circle {
           clip-path: url("#clip-11");
 }
 
-.item #tt12 {
+.item #pt12 {
   -webkit-clip-path: url("#clip-12");
           clip-path: url("#clip-12");
 }
 
-.item #tt13 {
+.item #pt13 {
   -webkit-clip-path: url("#clip-13");
           clip-path: url("#clip-13");
 }
 
-.item #st14 {
+.item #pt14 {
   -webkit-clip-path: url("#clip-14");
           clip-path: url("#clip-14");
 }
 
-.item #st15 {
+.item #tt15 {
   -webkit-clip-path: url("#clip-15");
           clip-path: url("#clip-15");
 }
 
-.item #st16 {
+.item #tt16 {
   -webkit-clip-path: url("#clip-16");
           clip-path: url("#clip-16");
 }
@@ -285,7 +278,7 @@ circle {
           clip-path: url("#clip-22");
 }
 
-.item #et23 {
+.item #st23 {
   -webkit-clip-path: url("#clip-23");
           clip-path: url("#clip-23");
 }
@@ -295,44 +288,44 @@ circle {
           clip-path: url("#clip-24");
 }
 
-.item #gaarshi {
+.item #et25 {
   -webkit-clip-path: url("#clip-25");
           clip-path: url("#clip-25");
 }
 
-.item #gjunaid {
+.item #gaarshi {
   -webkit-clip-path: url("#clip-26");
           clip-path: url("#clip-26");
 }
 
-.item #gvishesh {
+.item #gjunaid {
   -webkit-clip-path: url("#clip-27");
           clip-path: url("#clip-27");
 }
 
-.item #gajendra {
+.item #gvishesh {
   -webkit-clip-path: url("#clip-28");
           clip-path: url("#clip-28");
 }
 
-.item #gshreyansh {
+.item #gajendra {
   -webkit-clip-path: url("#clip-29");
           clip-path: url("#clip-29");
 }
 
-.item #gsuraj {
+.item #gshreyansh {
   -webkit-clip-path: url("#clip-30");
           clip-path: url("#clip-30");
+}
+
+.item #gsuraj {
+  -webkit-clip-path: url("#clip-31");
+          clip-path: url("#clip-31");
 }
 
 .item #gabhinav {
   -webkit-clip-path: url("#clip-100");
           clip-path: url("#clip-100");
-}
-
-.item #tabhinav {
-  -webkit-clip-path: url("#clip-7");
-          clip-path: url("#clip-7");
 }
 
 .item #gjoshi {
